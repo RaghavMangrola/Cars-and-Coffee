@@ -15,12 +15,14 @@ class MenuVC: UIViewController {
   @IBOutlet weak var tableView: UITableView!
 
 
-  var menuData: MenuData?
+  var menuData: SampleData.MenuData?
 
   override func viewDidLoad() {
 
     tableView.delegate = self
     tableView.dataSource = self
+
+    print(menuData!)
 
     imageView.image = menuData?.image
   }

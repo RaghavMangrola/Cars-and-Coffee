@@ -13,9 +13,16 @@ class SampleData {
 
   static let sharedInstance = SampleData()
 
-  let homeMenu = MenuData(#imageLiteral(resourceName: "Home"), ["Cars", "Coffee"], [SampleData.sharedInstance.carMenu, SampleData.sharedInstance.coffeeMenu])
-  let carMenu = MenuData(#imageLiteral(resourceName: "Car"), ["Lexus", "Mercedes", "Honda"], nil)
-  let coffeeMenu = MenuData(#imageLiteral(resourceName: "Coffee"), ["Cappucino", "Americano", "Latte", "Frappuccino"], nil)
+  struct MenuData {
+    let image: UIImage?
+    let tableViewItems: [String]?
+    let data: [MenuData]?
+  }
 
+  let homeMenu = MenuData(image: #imageLiteral(resourceName: "Home"), tableViewItems: ["Cars", "Coffee"], data: nil)
+  let carMenu = MenuData(image: #imageLiteral(resourceName: "Car"), tableViewItems: ["Lexus", "Mercedes", "Honda"], data: nil)
+  let coffeeMenu = MenuData(image: #imageLiteral(resourceName: "Coffee"), tableViewItems: ["Cappucino", "Americano", "Latte", "Frappuccino"], data: nil)
+  
+  
 }
 

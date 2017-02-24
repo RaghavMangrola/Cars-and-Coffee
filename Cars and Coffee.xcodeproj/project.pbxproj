@@ -13,7 +13,6 @@
 		A0D355821E60BC75005F88CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0D355801E60BC75005F88CA /* LaunchScreen.storyboard */; };
 		A0D3558C1E60BF53005F88CA /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D3558B1E60BF53005F88CA /* MenuVC.swift */; };
 		A0D3558E1E60C1A6005F88CA /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D3558D1E60C1A6005F88CA /* SampleData.swift */; };
-		A0D355901E60CCA9005F88CA /* MenuData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D3558F1E60CCA9005F88CA /* MenuData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		A0D355831E60BC75005F88CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0D3558B1E60BF53005F88CA /* MenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 		A0D3558D1E60C1A6005F88CA /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
-		A0D3558F1E60CCA9005F88CA /* MenuData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +63,6 @@
 				A0D355831E60BC75005F88CA /* Info.plist */,
 				A0D3558B1E60BF53005F88CA /* MenuVC.swift */,
 				A0D3558D1E60C1A6005F88CA /* SampleData.swift */,
-				A0D3558F1E60CCA9005F88CA /* MenuData.swift */,
 			);
 			path = "Cars and Coffee";
 			sourceTree = "<group>";
@@ -143,7 +140,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0D355901E60CCA9005F88CA /* MenuData.swift in Sources */,
 				A0D3558C1E60BF53005F88CA /* MenuVC.swift in Sources */,
 				A0D3558E1E60C1A6005F88CA /* SampleData.swift in Sources */,
 				A0D355781E60BC75005F88CA /* AppDelegate.swift in Sources */,
@@ -308,6 +304,7 @@
 				A0D355881E60BC75005F88CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

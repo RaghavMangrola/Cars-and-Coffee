@@ -19,10 +19,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     window = UIWindow(frame: UIScreen.main.bounds)
     let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-    let initialViewController: MenuVC = mainStoryboard.instantiateViewController(withIdentifier: "MenuVC") as! MenuVC
-    initialViewController.menuData = SampleData.sharedInstance.homeMenu
+    let menuVC: MenuVC = mainStoryboard.instantiateViewController(withIdentifier: "MenuVC") as! MenuVC
+    menuVC.menuData = SampleData.sharedInstance.homeMenu
 
-    window?.rootViewController = initialViewController
+    window?.rootViewController = menuVC
     window?.makeKeyAndVisible()
 
     return true
