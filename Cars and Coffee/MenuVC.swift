@@ -31,11 +31,11 @@ class MenuVC: UIViewController {
 
 extension MenuVC: UITableViewDelegate {
 
-  func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-    let menuVC = storyboard?.instantiateViewController(withIdentifier: "MenuVC") as! MenuVC
-    menuVC.menuData = (menuData?.data?[indexPath.row])!
-    navigationController?.pushViewController(menuVC, animated: true)
-  }
+//  func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+//    let menuVC = storyboard?.instantiateViewController(withIdentifier: "MenuVC") as! MenuVC
+//    menuVC.menuData = (menuData?.data?[indexPath.row])!
+//    navigationController?.pushViewController(menuVC, animated: true)
+//  }
 
   func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
 
