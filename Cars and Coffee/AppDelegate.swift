@@ -16,6 +16,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
     // Override point for customization after application launch.
+
+    window = UIWindow(frame: UIScreen.main.bounds)
+    let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+    let initialViewController: MenuVC = mainStoryboard.instantiateViewController(withIdentifier: "MenuVC") as! MenuVC
+    initialViewController.menuData = SampleData.sharedInstance.homeMenu
+
+    window?.rootViewController = initialViewController
+    window?.makeKeyAndVisible()
+
     return true
   }
 
