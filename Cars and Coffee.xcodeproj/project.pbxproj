@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A042DC401E63D260009490EE /* CarsAndCoffee.json in Resources */ = {isa = PBXBuildFile; fileRef = A042DC3F1E63D260009490EE /* CarsAndCoffee.json */; };
 		A0D355781E60BC75005F88CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D355771E60BC75005F88CA /* AppDelegate.swift */; };
 		A0D3557D1E60BC75005F88CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0D3557B1E60BC75005F88CA /* Main.storyboard */; };
 		A0D3557F1E60BC75005F88CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0D3557E1E60BC75005F88CA /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A042DC3F1E63D260009490EE /* CarsAndCoffee.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CarsAndCoffee.json; sourceTree = "<group>"; };
 		A0D355741E60BC75005F88CA /* Cars and Coffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cars and Coffee.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0D355771E60BC75005F88CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0D3557C1E60BC75005F88CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				A0D3557E1E60BC75005F88CA /* Assets.xcassets */,
 				A0D355801E60BC75005F88CA /* LaunchScreen.storyboard */,
 				A0D355831E60BC75005F88CA /* Info.plist */,
+				A042DC3F1E63D260009490EE /* CarsAndCoffee.json */,
 				A0D3558B1E60BF53005F88CA /* MenuVC.swift */,
 				A0D3558D1E60C1A6005F88CA /* SampleData.swift */,
 			);
@@ -129,6 +132,7 @@
 			files = (
 				A0D355821E60BC75005F88CA /* LaunchScreen.storyboard in Resources */,
 				A0D3557F1E60BC75005F88CA /* Assets.xcassets in Resources */,
+				A042DC401E63D260009490EE /* CarsAndCoffee.json in Resources */,
 				A0D3557D1E60BC75005F88CA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

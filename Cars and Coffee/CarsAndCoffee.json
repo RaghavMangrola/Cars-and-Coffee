@@ -1,0 +1,14 @@
+{
+  "Cars" : {
+    "image" : "Car",
+    "brands": ["Lexus", "Mercedes", "Honda"]
+  },
+  "Coffee" : {
+    "image" : "Coffee",
+    "drinks": ["Cappucino", "Americano", "Latte", "Frappuccino"]
+  },
+  "Menu" : {
+    "image" : "Home",
+    "drinks": ["Cars", "Coffee"]
+  }
+}
