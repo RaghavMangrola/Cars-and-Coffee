@@ -7,4 +7,5 @@ target 'Cars and Coffee' do
 
   # Pods for Cars and Coffee
   pod 'SwiftyJSON', '~> 3.1'
+  pod 'XCGLogger', '~> 4.0'
 end

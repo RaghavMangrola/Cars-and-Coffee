@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A042DC401E63D260009490EE /* CarsAndCoffee.json in Resources */ = {isa = PBXBuildFile; fileRef = A042DC3F1E63D260009490EE /* CarsAndCoffee.json */; };
+		A042DC421E63D3CB009490EE /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A042DC411E63D3CB009490EE /* Menu.swift */; };
 		A0D355781E60BC75005F88CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D355771E60BC75005F88CA /* AppDelegate.swift */; };
 		A0D3557D1E60BC75005F88CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0D3557B1E60BC75005F88CA /* Main.storyboard */; };
 		A0D3557F1E60BC75005F88CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0D3557E1E60BC75005F88CA /* Assets.xcassets */; };
@@ -20,13 +21,14 @@
 /* Begin PBXFileReference section */
 		38825D731AB9A5182A1B7119 /* Pods-Cars and Coffee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cars and Coffee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cars and Coffee/Pods-Cars and Coffee.debug.xcconfig"; sourceTree = "<group>"; };
 		A042DC3F1E63D260009490EE /* CarsAndCoffee.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CarsAndCoffee.json; sourceTree = "<group>"; };
+		A042DC411E63D3CB009490EE /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		A0D355741E60BC75005F88CA /* Cars and Coffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cars and Coffee.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0D355771E60BC75005F88CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A0D355771E60BC75005F88CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AppDelegate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		A0D3557C1E60BC75005F88CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0D3557E1E60BC75005F88CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0D355811E60BC75005F88CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0D355831E60BC75005F88CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A0D3558B1E60BF53005F88CA /* MenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		A0D3558B1E60BF53005F88CA /* MenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = MenuVC.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		A0D3558D1E60C1A6005F88CA /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 		C87C7B0ED030A6EFC0834133 /* Pods-Cars and Coffee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cars and Coffee.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cars and Coffee/Pods-Cars and Coffee.release.xcconfig"; sourceTree = "<group>"; };
 		FD6265694BCEDA6582E5ABC0 /* Pods_Cars_and_Coffee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cars_and_Coffee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +75,7 @@
 				A042DC3F1E63D260009490EE /* CarsAndCoffee.json */,
 				A0D3558B1E60BF53005F88CA /* MenuVC.swift */,
 				A0D3558D1E60C1A6005F88CA /* SampleData.swift */,
+				A042DC411E63D3CB009490EE /* Menu.swift */,
 			);
 			path = "Cars and Coffee";
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 			files = (
 				A0D3558C1E60BF53005F88CA /* MenuVC.swift in Sources */,
 				A0D3558E1E60C1A6005F88CA /* SampleData.swift in Sources */,
+				A042DC421E63D3CB009490EE /* Menu.swift in Sources */,
 				A0D355781E60BC75005F88CA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

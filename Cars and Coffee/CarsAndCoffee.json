@@ -1,14 +1,18 @@
 {
-  "Cars" : {
-    "image" : "Car",
-    "brands": ["Lexus", "Mercedes", "Honda"]
-  },
-  "Coffee" : {
-    "image" : "Coffee",
-    "drinks": ["Cappucino", "Americano", "Latte", "Frappuccino"]
-  },
   "Menu" : {
-    "image" : "Home",
-    "drinks": ["Cars", "Coffee"]
+    "image": "Home",
+    "kind" : [
+      {
+        "Cars" : {
+          "image" : "Car",
+          "kind" : ["Lexus", "Mercedes", "Honda"]
+        }
+      }, {
+        "Coffee" : {
+          "image" : "Coffee",
+          "kind" : ["Cappucino", "Americano", "Latte", "Frappuccino"]
+         }
+      }
+    ]
   }
 }

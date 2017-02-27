@@ -1,12 +1,17 @@
 PODS:
   - SwiftyJSON (3.1.4)
+  - XCGLogger (4.0.0):
+    - XCGLogger/Core (= 4.0.0)
+  - XCGLogger/Core (4.0.0)
 
 DEPENDENCIES:
   - SwiftyJSON (~> 3.1)
+  - XCGLogger (~> 4.0)
 
 SPEC CHECKSUMS:
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  XCGLogger: 38063ea89b4c8b23232d18efd2e12eb0005f3ea4
 
-PODFILE CHECKSUM: 01b1a958e84b0bcbd1c1a4fdf1482d7354a5c520
+PODFILE CHECKSUM: d9a86d4628040d77cf3da2bbd7b1b64b110b5b93
 
 COCOAPODS: 1.2.0

@@ -15,16 +15,16 @@ class MenuVC: UIViewController {
   @IBOutlet weak var tableView: UITableView!
 
 
-  var menuData: SampleData.MenuData?
+  var menuData: Menu?
 
   override func viewDidLoad() {
 
     tableView.delegate = self
     tableView.dataSource = self
 
-    print(menuData!)
+    log.debug(self.menuData)
 
-    imageView.image = menuData?.image
+    imageView.image = UIImage(named: (menuData?.imageName!)!)
   }
 
 }
@@ -39,7 +39,7 @@ extension MenuVC: UITableViewDelegate {
 
   func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
 
-    return tableView.frame.size.height/CGFloat((menuData!.tableViewItems?.count)!)
+    return tableView.frame.size.height/CGFloat((menuData!.kind?.count)!)
   }
 }
 
@@ -48,12 +48,12 @@ extension MenuVC: UITableViewDataSource {
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     let cell = UITableViewCell()
 
-    cell.textLabel?.text = menuData?.tableViewItems?[indexPath.row]
+    cell.textLabel?.text = menuData?.kind?[indexPath.row]
 
     return cell
   }
 
   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-    return menuData!.tableViewItems!.count
+    return menuData!.kind!.count
   }
 }
