@@ -14,9 +14,11 @@
 		A0D355821E60BC75005F88CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0D355801E60BC75005F88CA /* LaunchScreen.storyboard */; };
 		A0D3558C1E60BF53005F88CA /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D3558B1E60BF53005F88CA /* MenuVC.swift */; };
 		A0D3558E1E60C1A6005F88CA /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D3558D1E60C1A6005F88CA /* SampleData.swift */; };
+		C9B9E5E81B26A7A03D4983F4 /* Pods_Cars_and_Coffee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6265694BCEDA6582E5ABC0 /* Pods_Cars_and_Coffee.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		38825D731AB9A5182A1B7119 /* Pods-Cars and Coffee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cars and Coffee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cars and Coffee/Pods-Cars and Coffee.debug.xcconfig"; sourceTree = "<group>"; };
 		A042DC3F1E63D260009490EE /* CarsAndCoffee.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CarsAndCoffee.json; sourceTree = "<group>"; };
 		A0D355741E60BC75005F88CA /* Cars and Coffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cars and Coffee.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0D355771E60BC75005F88CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +28,8 @@
 		A0D355831E60BC75005F88CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0D3558B1E60BF53005F88CA /* MenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 		A0D3558D1E60C1A6005F88CA /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		C87C7B0ED030A6EFC0834133 /* Pods-Cars and Coffee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cars and Coffee.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cars and Coffee/Pods-Cars and Coffee.release.xcconfig"; sourceTree = "<group>"; };
+		FD6265694BCEDA6582E5ABC0 /* Pods_Cars_and_Coffee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cars_and_Coffee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9B9E5E81B26A7A03D4983F4 /* Pods_Cars_and_Coffee.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,8 @@
 			children = (
 				A0D355761E60BC75005F88CA /* Cars and Coffee */,
 				A0D355751E60BC75005F88CA /* Products */,
+				BDDDAA5D405D4D19334E8224 /* Pods */,
+				F38CD15D375F8E93C56153C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +77,23 @@
 			path = "Cars and Coffee";
 			sourceTree = "<group>";
 		};
+		BDDDAA5D405D4D19334E8224 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38825D731AB9A5182A1B7119 /* Pods-Cars and Coffee.debug.xcconfig */,
+				C87C7B0ED030A6EFC0834133 /* Pods-Cars and Coffee.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F38CD15D375F8E93C56153C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD6265694BCEDA6582E5ABC0 /* Pods_Cars_and_Coffee.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0D355861E60BC75005F88CA /* Build configuration list for PBXNativeTarget "Cars and Coffee" */;
 			buildPhases = (
+				A750DE629A9B5CDD49514A56 /* [CP] Check Pods Manifest.lock */,
 				A0D355701E60BC75005F88CA /* Sources */,
 				A0D355711E60BC75005F88CA /* Frameworks */,
 				A0D355721E60BC75005F88CA /* Resources */,
+				0F6953931CF4F936D1F78C50 /* [CP] Embed Pods Frameworks */,
+				B369AC198524A7A630CD7CB3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,6 +165,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F6953931CF4F936D1F78C50 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cars and Coffee/Pods-Cars and Coffee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A750DE629A9B5CDD49514A56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B369AC198524A7A630CD7CB3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cars and Coffee/Pods-Cars and Coffee-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A0D355701E60BC75005F88CA /* Sources */ = {
@@ -265,6 +340,7 @@
 		};
 		A0D355871E60BC75005F88CA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38825D731AB9A5182A1B7119 /* Pods-Cars and Coffee.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 74GMB5MEKL;
@@ -278,6 +354,7 @@
 		};
 		A0D355881E60BC75005F88CA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C87C7B0ED030A6EFC0834133 /* Pods-Cars and Coffee.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 74GMB5MEKL;

@@ -1,0 +1,6 @@
+framework module Pods_Cars_and_Coffee {
+  umbrella header "Pods-Cars and Coffee-umbrella.h"
+
+  export *
+  module * { export * }
+}
